@@ -1,0 +1,82 @@
+body {
+    background-color: darkcyan;
+    font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+
+.top-background {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+
+.bottom-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.card-wrapper {
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    border-radius: 10px;
+}
+
+.background-pattern {
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    border: solid white thick;
+    margin-top: -50px;
+}
+
+.profile-name, .number {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile-name {
+    margin-top: 20px;
+}
+
+.profile-age, .profile-city, .title {
+    font-weight: 400;
+    color: darkgray;
+}
+
+.profile-city {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid lightgray;
+}
+
+.profile-stats-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.attribution {
+    position: absolute;
+    top: 95%;
+}
